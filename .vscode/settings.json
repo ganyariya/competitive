@@ -1,0 +1,35 @@
+{
+    // code-runner ctrl+alt+n
+    "code-runner.runInTerminal": true,
+    "code-runner.executorMap": {
+        "cpp": "cd $dir && g++ -std=c++17 -I . -g $fileName -o $fileNameWithoutExt && ./$fileNameWithoutExt",
+        "python": "python3 -u",
+        "go": "go run",
+        "typescript": "ts-node",
+        "rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
+        "nim": "nim compile --verbosity:0 --hints:off --run",
+    },
+    "files.exclude": {
+        "**/main": true,
+        "**/main.dSYM": true,
+    },
+    "files.associations": {
+        ".textlintrc": "json",
+        "random": "cpp",
+        "iostream": "cpp",
+        "ostream": "cpp",
+        "array": "cpp",
+        "future": "cpp",
+        "istream": "cpp",
+        "locale": "cpp",
+        "memory": "cpp",
+        "thread": "cpp",
+        "tuple": "cpp",
+        "variant": "cpp",
+        "__functional_base": "cpp",
+        "utility": "cpp",
+        "*.tcc": "cpp",
+        "functional": "cpp",
+        "bitset": "cpp"
+    },
+}
