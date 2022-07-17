@@ -30,6 +30,12 @@
         "utility": "cpp",
         "*.tcc": "cpp",
         "functional": "cpp",
-        "bitset": "cpp"
+        "bitset": "cpp",
+        "__tree": "cpp",
+        "map": "cpp",
+        "set": "cpp",
+        "algorithm": "cpp",
+        "all": "cpp",
+        "iosfwd": "cpp"
     },
 }
