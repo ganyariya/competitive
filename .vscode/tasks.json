@@ -4,13 +4,16 @@
 		{
 			"type": "cppbuild",
 			"label": "GCC Build",
-			"command": "/usr/local/bin/g++",
+			"command": "g++",
 			"args": [
 				"-fdiagnostics-color=always",
 				"-g",
+				"-O0",
 				"${file}",
+				"-I",
+				".",
 				"-o",
-				"${fileDirname}/${fileBasenameNoExtension}"
+				"${fileDirname}/${fileBasenameNoExtension}",
 			],
 			"options": {
 				"cwd": "${fileDirname}"

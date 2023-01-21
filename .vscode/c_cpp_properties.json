@@ -4,10 +4,9 @@
             "name": "Mac",
             "includePath": [
                 "${workspaceFolder}/**"
-                // "/usr/local/Cellar/gcc/11.2.0_3/include/c++/11"
             ],
             "defines": [],
-            "compilerPath": "/usr/local/bin/g++",
+            "compilerPath": "/usr/bin/g++",
             "cStandard": "c17",
             "cppStandard": "c++17",
             "intelliSenseMode": "gcc-x64"

@@ -14,10 +14,10 @@
             "request": "launch",
             "program": "${fileDirname}/${fileBasenameNoExtension}",
             "args": [],
-            "stopAtEntry": false,
+            // "stopAtEntry": false,
             "cwd": "${fileDirname}",
-            "externalConsole": false,
-            "MIMode": "lldb",
+            // "externalConsole": false,
+            // "MIMode": "lldb",
             "preLaunchTask": "GCC Build"
         }
     ]
