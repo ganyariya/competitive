@@ -12,30 +12,5 @@
     "files.exclude": {
         "**/main": true,
         "**/main.dSYM": true,
-    },
-    "files.associations": {
-        ".textlintrc": "json",
-        "random": "cpp",
-        "iostream": "cpp",
-        "ostream": "cpp",
-        "array": "cpp",
-        "future": "cpp",
-        "istream": "cpp",
-        "locale": "cpp",
-        "memory": "cpp",
-        "thread": "cpp",
-        "tuple": "cpp",
-        "variant": "cpp",
-        "__functional_base": "cpp",
-        "utility": "cpp",
-        "*.tcc": "cpp",
-        "functional": "cpp",
-        "bitset": "cpp",
-        "__tree": "cpp",
-        "map": "cpp",
-        "set": "cpp",
-        "algorithm": "cpp",
-        "all": "cpp",
-        "iosfwd": "cpp"
-    },
+    }
 }

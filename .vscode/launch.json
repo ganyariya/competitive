@@ -1,24 +1,25 @@
 {
-    "version": "0.2.0",
     "configurations": [
         {
-            "name": "Launch",
-            "type": "go",
-            "request": "launch",
-            "mode": "auto",
-            "program": "${file}",
-        },
-        {
-            "name": "LLDB Debug",
-            "type": "lldb",
+            "name": "GDB",
+            "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}/${fileBasenameNoExtension}",
             "args": [],
-            // "stopAtEntry": false,
+            "stopAtEntry": false,
             "cwd": "${fileDirname}",
-            // "externalConsole": false,
-            // "MIMode": "lldb",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+            ],
             "preLaunchTask": "GCC Build"
         }
-    ]
+    ],
+    "version": "2.0.0"
 }

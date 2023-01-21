@@ -163,4 +163,16 @@ class ModInt {
   }
 };
 
-int main() {}
+int main() {
+  int a;
+  cin >> a;
+
+  map<string, int> mp;
+  mp["100"] = 20;
+
+  mp["43"]++;
+
+  cout << mp["100"];
+
+  cout << a << endl;
+}
