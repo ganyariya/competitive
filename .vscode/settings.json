@@ -1,5 +1,5 @@
 {
-    // code-runner ctrl+alt+n
+    // code-runner ctrl+option+n
     "code-runner.runInTerminal": true,
     "code-runner.executorMap": {
         "cpp": "cd $dir && g++ -std=c++17 -I . -g $fileName -o $fileNameWithoutExt && ./$fileNameWithoutExt",

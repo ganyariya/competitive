@@ -1,16 +1,42 @@
 
 # competitive
 
-For competitive repository
+ganyariya's competitive repository with VSCode devContainer
 
-# vscode
+# Setup
 
-Code Runner `Ctrl + Option + N`
+```bash
+gh repo clone ganyariya/competitive
+# or 
+git clone https://github.com/ganyariya/competitive.git
+```
 
-# environment
+- Install & Setup `Docker Desktop`
+- Open `ganyariya/competitive` directory with VSCode
+- Open VSCode CommandPalette and select `Dec containers: Reopen in Container`
+  - Automatically create & launch a devcontainer
 
-GCC
+# How to use
 
-- [Mac における GCC の導入](https://qiita.com/DaikiSuyama/items/09f5aa399aad37783146)
-- [【翻訳】Visual Studio Code C/C++ Extension の設定ファイル c_cpp_properties.json のリファレンスガイド](https://qiita.com/yuki12/items/0296796c64dd077bd5c4)
-- [デバッガの設定](https://qiita.com/ageprocpp/items/d5111699f9e8a0d88c89)
+## Run
+
+You can write any code in `cpp`, `go`, and `python` directory.   
+After writing, you can run codes automatically with `Ctrl + Option + N` with Code Runner Extension.
+
+![](https://i.gyazo.com/630d0c2e5a7c764b737774fafcd2be94.gif)
+
+## Debug
+
+Open your code (ex: `main.go`) and Open `Debug` vscode sidebar.   
+Then, launch debug task (ex: `Go Debug`).
+
+![](https://i.gyazo.com/855254e07ad1a7608618bdf6fb1f626d.gif)
+
+# Links
+
+- Devcontainers
+  - https://code.visualstudio.com/docs/devcontainers/containers
+  - https://zenn.dev/bells17/articles/remote-ssh-devcontainer
+- cpp
+  - https://code.visualstudio.com/docs/languages/cpp
+  - https://code.visualstudio.com/docs/cpp/launch-json-reference

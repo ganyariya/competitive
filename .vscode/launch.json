@@ -1,7 +1,7 @@
 {
     "configurations": [
         {
-            "name": "GDB",
+            "name": "C++ Debug",
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}/${fileBasenameNoExtension}",
@@ -19,6 +19,19 @@
                 },
             ],
             "preLaunchTask": "GCC Build"
+        },
+        {
+            "name": "Go Debug",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "${file}",
+        },
+        {
+            "name": "Python Debug",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}"
         }
     ],
     "version": "2.0.0"
