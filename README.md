@@ -13,7 +13,7 @@ git clone https://github.com/ganyariya/competitive.git
 
 - Install & Setup `Docker Desktop`
 - Open `ganyariya/competitive` directory with VSCode
-- Open VSCode CommandPalette and select `Dec containers: Reopen in Container`
+- Open VSCode CommandPalette and select `Dev containers: Reopen in Container`
   - Automatically create & launch a devcontainer
 
 # How to use
