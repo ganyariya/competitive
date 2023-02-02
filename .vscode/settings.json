@@ -8,6 +8,7 @@
         "typescript": "ts-node",
         "rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
         "nim": "nim compile --verbosity:0 --hints:off --run",
+        "lua": "cd $dir && lua $fileName"
     },
     "files.exclude": {
         "**/main": true,
