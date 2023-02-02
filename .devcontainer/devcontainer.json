@@ -12,7 +12,9 @@
 		"vscode": {
 			"extensions": [
 				"ms-vscode.cpptools",
-				"formulahendry.code-runner"
+				"formulahendry.code-runner",
+				"sumneko.lua",
+				"actboy168.lua-debug"
 			]
 		}
 	}
