@@ -8,10 +8,14 @@
         "typescript": "ts-node",
         "rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
         "nim": "nim compile --verbosity:0 --hints:off --run",
-        "lua": "cd $dir && lua $fileName"
+        "lua": "cd $dir && lua $fileName",
+        "csharp": "cd $dir && dotnet run"
     },
     "files.exclude": {
         "**/main": true,
         "**/main.dSYM": true,
+        "**/bin": true,
+        "**/obj": true,
+        "**/**.csproj": true,
     }
 }
