@@ -38,7 +38,18 @@
             "type": "lua",
             "request": "launch",
             "program": "${file}"
-        }
+        },
+        {
+            "name": "C# Debug",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "C# Build",
+            "program": "${workspaceFolder}/csharp/bin/Debug/net6.0/csharp.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/csharp",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
     ],
     "version": "2.0.0"
 }

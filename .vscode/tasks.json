@@ -22,6 +22,18 @@
 				"$gcc"
 			],
 			"group": "build",
-		}
+		},
+		{
+			"label": "C# Build",
+			"command": "dotnet",
+			"type": "process",
+			"args": [
+				"build",
+				"${workspaceFolder}/csharp/csharp.csproj",
+				"/property:GenerateFullPaths=true",
+				"/consoleloggerparameters:NoSummary"
+			],
+			"problemMatcher": "$msCompile"
+		},
 	]
 }
