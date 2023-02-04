@@ -14,7 +14,8 @@
 				"ms-vscode.cpptools",
 				"formulahendry.code-runner",
 				"sumneko.lua",
-				"actboy168.lua-debug"
+				"actboy168.lua-debug",
+				"ms-dotnettools.csharp"
 			]
 		}
 	}
