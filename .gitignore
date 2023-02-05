@@ -636,3 +636,5 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+**/bundle.lua
