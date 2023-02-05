@@ -17,6 +17,5 @@
         "**/bin": true,
         "**/obj": true,
         "**/**.csproj": true,
-        "**/bundle.lua": true,
     }
 }
