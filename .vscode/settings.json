@@ -8,7 +8,7 @@
         "typescript": "ts-node",
         "rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
         "nim": "nim compile --verbosity:0 --hints:off --run",
-        "lua": "cd $dir && lua $fileName",
+        "lua": "cd $dir && luabundler bundle $fileName -p '?.lua' -o bundle.lua && lua bundle.lua",
         "csharp": "cd $dir && dotnet run"
     },
     "files.exclude": {
@@ -17,5 +17,6 @@
         "**/bin": true,
         "**/obj": true,
         "**/**.csproj": true,
+        "**/bundle.lua": true,
     }
 }
