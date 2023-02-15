@@ -3,6 +3,14 @@
 
 ganyariya's competitive repository with VSCode devContainer
 
+### Languages
+
+- c++
+- c#
+- go
+- python
+- lua
+
 # Setup
 
 ```bash
