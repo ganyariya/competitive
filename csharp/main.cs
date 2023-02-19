@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Linq;
+using System.Collections.Generic;
 
-internal class Program
+class Program
 {
-    static void Main()
+    static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        var name = Console.ReadLine();
+        Console.WriteLine("Hello, World! " + name);
     }
 }
