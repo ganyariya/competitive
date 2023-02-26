@@ -20,5 +20,6 @@
     },
     "omnisharp.enableRoslynAnalyzers": true,
     "omnisharp.useModernNet": true,
-    "omnisharp.enableImportCompletion": true
+    "omnisharp.enableImportCompletion": true,
+    "omnisharp.organizeImportsOnFormat": true
 }
