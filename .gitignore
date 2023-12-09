@@ -638,3 +638,5 @@ FodyWeavers.xsd
 *.sln.iml
 
 **/bundle.lua
+
+!go.mod
